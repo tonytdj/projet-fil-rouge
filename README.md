@@ -34,3 +34,17 @@ Pour lancer le container, j'ai lancé la commande suivante :
 Le container est bien lancé. J'ai configuré le port 8080 pour pouvoir accéder à la page web.
 ![image](https://user-images.githubusercontent.com/88394820/214952035-af4640ea-b3db-4802-93af-47b3dd8a7523.png)
 
+Pour envoyer l'image dans dockerhub, il faudra le taguer avec notre compte dockerhub :
+
+![image](https://user-images.githubusercontent.com/88394820/215274382-f8f52f8f-d652-46e7-bebd-19673a2f0941.png)
+
+Il faudra également s'authentifier avec notre compte DokcerHub puis envoyer l'image : 
+![image](https://user-images.githubusercontent.com/88394820/215274435-5a4ffac1-cfcc-46ca-8cbc-441a16dda628.png)
+
+
+L'imae a bien été envoyé sur DockerHub : 
+
+![image](https://user-images.githubusercontent.com/88394820/215274453-b1e63bd6-14dd-4499-ba18-60d7bae22edd.png)
+
+
+
