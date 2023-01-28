@@ -20,7 +20,7 @@ Une fois le Dockerfile crée, Buildez le et lancer un container test permettant 
 Une fois le test terminé, supprimez ce container test et poussez votre image sur votre registre Docker hub..
 
 ## Résultat
-Le Dockerfile a bien été créé.
+Le Dockerfile a bien été créé (dans ce répo).
 L'image a été créé : 
 
 
