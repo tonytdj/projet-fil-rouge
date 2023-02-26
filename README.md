@@ -38,7 +38,7 @@ Pour envoyer l'image dans dockerhub, il faudra le taguer avec notre compte docke
 
 ![image](https://user-images.githubusercontent.com/88394820/215274382-f8f52f8f-d652-46e7-bebd-19673a2f0941.png)
 
-Il faudra également s'authentifier avec notre compte DokcerHub puis envoyer l'image : 
+Il faudra également s'authentifier avec notre compte dockerhub puis envoyer l'image : 
 ![image](https://user-images.githubusercontent.com/88394820/215274435-5a4ffac1-cfcc-46ca-8cbc-441a16dda628.png)
 
 
