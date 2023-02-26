@@ -2,7 +2,9 @@ FROM python:3.6-alpine
 LABEL maintainer="tony@dejesus.pt"
 #MAINTAINER Tony tony@dejesus.pt
 WORKDIR /opt
-RUN apk add git && git clone https://github.com/sadofrazer/ic-webapp.git /opt && apk del git
+ADD . /opt
+VOLUME /opt
+#RUN apk add git && git clone https://github.com/sadofrazer/ic-webapp.git /opt && apk del git
 RUN pip install flask==1.1.2
 EXPOSE 8080
 ENV ODOO_URL=https://odoo.com

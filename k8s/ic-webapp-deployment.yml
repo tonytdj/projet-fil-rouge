@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    env: prod
+    app: ic-webapp
+  name: ic-webapp
+  namespace: icgroup
+spec:
+  replicas: 1
+  selector:
+    matchLabels: 
+      app: ic-webapp
+  template:
+    metadata:
+      labels:
+        app: ic-webapp
+    spec:
+      containers:
+      - image: tonytdj/ic-webapp:1.0
+        name: ic-webapp
+        env:
+        - name: ODOO_URL
+          value: https://odoo.com
+        - name: PGADMIN_URL
+          value: https://pgadmin.org
+        ports:
+        - containerPort: 8080
+          name: ic-webapp
